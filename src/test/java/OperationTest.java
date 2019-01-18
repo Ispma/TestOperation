@@ -18,7 +18,7 @@ public class OperationTest
     @BeforeClass
     public static void start() throws Exception
     {
-        System.out.println( "Начало работы" );
+        System.out.println( "Start work" );
         File data= new File("src/main/resources/data.txt" );
 
         BufferedReader bufferedReader= new BufferedReader( new FileReader(data) );
@@ -44,7 +44,7 @@ public class OperationTest
     public static void Endl()
     {
         arrays.clear();
-        System.out.println("Завершение работы");
+        System.out.println("End work");
     }
 
 
